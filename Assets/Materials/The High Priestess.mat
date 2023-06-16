@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Temperance
-  m_Shader: {fileID: 4800000, guid: a4afbeddb440c42539e9f4a8e5aaea27, type: 3}
+  m_Name: The High Priestess
+  m_Shader: {fileID: 4800000, guid: ad9368ab49f1345df874feb2e6726238, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
