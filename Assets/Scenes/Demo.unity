@@ -1652,15 +1652,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1280763467007528035, guid: 204d67079f9384aeeb1b8077685bc202, type: 3}
       propertyPath: m_text
-      value: The Summit
+      value: 'Intuition
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 4048859570831283139, guid: 204d67079f9384aeeb1b8077685bc202, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 2100000, guid: 487d2450b1c4644c5a6980b870fb73ab, type: 2}
+      objectReference: {fileID: 2100000, guid: 6b9848d4ba2844059952cda81b68d53c, type: 2}
     - target: {fileID: 6448959408110737290, guid: 204d67079f9384aeeb1b8077685bc202, type: 3}
       propertyPath: m_Name
-      value: The Summit (3)
+      value: Intuition
       objectReference: {fileID: 0}
     - target: {fileID: 6448959408110737291, guid: 204d67079f9384aeeb1b8077685bc202, type: 3}
       propertyPath: m_Pivot.x
@@ -2673,15 +2675,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1280763467007528035, guid: 204d67079f9384aeeb1b8077685bc202, type: 3}
       propertyPath: m_text
-      value: The Summit
+      value: The Stone
       objectReference: {fileID: 0}
     - target: {fileID: 4048859570831283139, guid: 204d67079f9384aeeb1b8077685bc202, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 2100000, guid: 487d2450b1c4644c5a6980b870fb73ab, type: 2}
+      objectReference: {fileID: 2100000, guid: b6b93fb3657ae4383899ccdc818177ec, type: 2}
     - target: {fileID: 6448959408110737290, guid: 204d67079f9384aeeb1b8077685bc202, type: 3}
       propertyPath: m_Name
-      value: The Summit (4)
+      value: The Stone
       objectReference: {fileID: 0}
     - target: {fileID: 6448959408110737291, guid: 204d67079f9384aeeb1b8077685bc202, type: 3}
       propertyPath: m_Pivot.x
