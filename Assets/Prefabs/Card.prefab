@@ -33,11 +33,11 @@ RectTransform:
   m_Father: {fileID: 6448959408110737291}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -400}
   m_SizeDelta: {x: 400, y: 120}
-  m_Pivot: {x: 0.5, y: 0}
+  m_Pivot: {x: 0, y: 1}
 --- !u!222 &8167211730067799218
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -163,7 +163,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 6448959408110737291}
   m_RootOrder: 0
@@ -193,9 +193,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 9e60bc3caf6594eb7b49a94d4d216460, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -222,7 +222,8 @@ GameObject:
   - component: {fileID: 6448959408110737291}
   - component: {fileID: 6448959408110737293}
   - component: {fileID: 8370512356298162981}
-  - component: {fileID: 7816335145821792271}
+  - component: {fileID: 5355705445942030900}
+  - component: {fileID: 5858608476981950623}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -290,7 +291,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7816335145821792271
+--- !u!114 &5355705445942030900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6448959408110737290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81aaa53e766e04b67b5bca6e6dcec482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverRect: {fileID: 5478747670790699660}
+  labelRect: {fileID: 1724838096398934551}
+  scaleFactor: 0
+--- !u!114 &5858608476981950623
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

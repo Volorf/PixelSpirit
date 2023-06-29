@@ -9,7 +9,7 @@ Shader "Pixel Spirit/Justice"
     {
         Tags { "RenderType"="Opaque" }
         LOD 100
-
+        
         Pass
         {
             CGPROGRAM
